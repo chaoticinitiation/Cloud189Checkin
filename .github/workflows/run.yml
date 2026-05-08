@@ -6,8 +6,8 @@ on:
   watch:
     types: started
   workflow_dispatch:
-  schedule:
-    - cron: 10 2,16 * * *
+  ##schedule:
+    ##- cron: 10 2,16 * * *
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
